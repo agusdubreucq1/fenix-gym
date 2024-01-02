@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Sarpanch&display=swap');
+:root{
+  --rojo: #F21212;
+  --amarillo: #FF0;
+  --negro: #202128;
+  --height-header: 80px;
+  --max-width: 1200px;
+  --shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--height-header);
+}
+
+@media screen and (width < 1000px) {
+  html{
+    font-size: 8px;
+  }
+}
+
+@media screen and (width < 800px) {
+  html{
+    font-size: 7px;
+  }
+}
+
+@media screen and (width < 600px) {
+  html{
+    font-size: 6px;
+  }
+}
