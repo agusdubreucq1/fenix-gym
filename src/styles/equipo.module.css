@@ -34,14 +34,14 @@
   justify-content: center;
 }
 
-@media screen and (width < 800px) {
+@media screen and (max-width: 800px) {
   .cards {
     grid-template-columns: repeat(auto-fill, 170px);
   }
   
 }
 
-@media screen and (width < 650px) {
+@media screen and (max-width: 650px) {
 
   .cards{
     grid-template-columns: repeat(auto-fill, 140px);
@@ -50,7 +50,7 @@
   
 }
 
-@media screen and (width < 500px) {
+@media screen and (max-width: 500px) {
 
   .cards{
     grid-template-columns: repeat(auto-fill, 100px);
