@@ -20,12 +20,12 @@ const Nosotros: React.FC = () => {
                     <h1>Mas que un <br /><span>gimnasio</span><br /> una familia</h1>
                 </div>
                 <div className={styles.galeria}>
-                    <img src={img1} alt="img1" />
-                    <img src={img2} alt="img2" />
-                    <img src={img3} alt="img3" />
-                    <img src={img1} alt="img1" />
-                    <img src={img2} alt="img2" />
-                    <img src={img4} alt="img4" />
+                    <img src={img1} alt="img1" loading="lazy"/>
+                    <img src={img2} alt="img2" loading="lazy"/>
+                    <img src={img3} alt="img3" loading="lazy"/>
+                    <img src={img1} alt="img1" loading="lazy"/>
+                    <img src={img2} alt="img2" loading="lazy"/>
+                    <img src={img4} alt="img4" loading="lazy"/>
                 </div>
 
 

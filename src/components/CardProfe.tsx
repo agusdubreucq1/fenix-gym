@@ -12,8 +12,8 @@ const CardProfe: React.FC<Props> = ({ imgFront, imgBack, name }) => {
         <div className={styles.container}>
             <article className={styles.article}>
                 <picture className={styles.picture}>
-                    <img src={imgFront} className={styles.img_front}></img>
-                    <img src={imgBack} className={styles.img_back}></img>
+                    <img src={imgFront} className={styles.img_front} loading="lazy"></img>
+                    <img src={imgBack} className={styles.img_back} loading="lazy"></img>
                 </picture>
                 <div>
                     <p className={styles.name}>{name}</p>
