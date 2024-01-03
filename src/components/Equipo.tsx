@@ -5,9 +5,9 @@ import CardProfe from './CardProfe';
 import ronnie from '/imagenes/ronnie.svg'
 import ronnie_back from '/imagenes/ronnie_back.webp'
 
-import profe1 from '/imagenes/profe4.jpeg'
-import profe2 from '/imagenes/profe2.jpeg'
-import profe3 from '/imagenes/profe3.jpeg'
+import profe1 from '/imagenes/profe4.webp'
+import profe2 from '/imagenes/profe2.webp'
+import profe3 from '/imagenes/profe3.webp'
 
 const Equipo: React.FC = () => {
     return (

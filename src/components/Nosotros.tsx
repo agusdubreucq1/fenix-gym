@@ -7,9 +7,9 @@ import styles from '../styles/nosotros.module.css'
 // import img4 from '/imagenes/img4.svg'
 
 import img1 from '/imagenes/fondo.svg'
-import img2 from '/imagenes/fondo3.jpeg'
-import img3 from '/imagenes/fondo2.jpeg'
-import img4 from '/imagenes/fondo4.jpeg'
+import img2 from '/imagenes/fondo3.webp'
+import img3 from '/imagenes/fondo2.webp'
+import img4 from '/imagenes/fondo4.webp'
 
 const Nosotros: React.FC = () => {
     return (
