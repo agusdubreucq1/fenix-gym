@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from '../styles/contacto.module.css'
 
+import ig from '/iconos/ig.svg'
+import facebook from '/iconos/facebook.svg'
+
 const Contacto: React.FC = () => {
     return (
         <div className={styles.container}>
@@ -19,6 +22,20 @@ const Contacto: React.FC = () => {
                     </div>
                 </div>
             </section>
+            <footer className={styles.footer}>
+                <nav className={styles.footer__nav}>
+                    <div className={styles.redes_sociales}>
+                        <p className={styles.footer_text}>Seguinos</p>
+                        <a><img src={ig}></img></a>
+                        <a><img src={facebook}></img></a>
+                    </div>
+
+
+                    <p className={styles.footer_text}>© 2024 Fenix Gym</p>
+
+                    <p className={styles.mi_referencia}>Creado por <a href='https://agusdubreucq.com' target='_blank'>agusdubreucq</a></p>
+                </nav>
+            </footer>
         </div>
 
     );
