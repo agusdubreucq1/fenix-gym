@@ -7,7 +7,7 @@ const Main:React.FC = () => {
     <main className={styles.main}>
         {/* <img className={styles.img_fondo} src={fondo}></img> */}
         <div className={styles.text}>
-            <h1 className={styles.h1}>Unite a los que saben</h1>
+            <h1 className={styles.h1}>Entrenate con nosotros</h1>
             <a href='#nosotros'>Ver Mas</a>
         </div>
         

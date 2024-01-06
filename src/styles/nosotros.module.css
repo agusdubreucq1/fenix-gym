@@ -2,8 +2,6 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  /* background: linear-gradient(180deg, #f21212 0%, #4d292a 27.08%, rgba(32, 33, 40, 0.92) 65.1%, #202128 100%); */
-  /* background-color: var(--negro); */
   background: linear-gradient(0deg, #202128 0%, rgba(32, 33, 40, 0.9) 33.33%, #f00 100%);
 
 }
@@ -29,6 +27,7 @@
   justify-content: center;
   /* height: 200px; */
 }
+
 
 .section h1 {
   color: #fff;
@@ -58,11 +57,26 @@
   height: 100%;
   object-fit: cover;
   box-shadow: var(--shadow);
+  animation-name: mostrar;
+  animation-timeline: view();
+  animation-range: entry 15% cover 50%;
+  animation-fill-mode: both;
 }
 
 .galeria img:nth-child(3),
 .galeria img:nth-child(6) {
   grid-column: span 2;
+}
+
+@keyframes mostrar{
+  0%{
+    opacity: 0;
+    scale: 0.8;
+  }
+  100%{
+    opacity: 1;
+    scale: 1;
+  }
 }
 
 @media screen and (max-width: 750px) {
