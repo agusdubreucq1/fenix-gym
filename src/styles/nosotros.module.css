@@ -3,7 +3,9 @@
   justify-content: center;
   width: 100%;
   /* background: linear-gradient(180deg, #f21212 0%, #4d292a 27.08%, rgba(32, 33, 40, 0.92) 65.1%, #202128 100%); */
-  background-color: var(--negro);
+  /* background-color: var(--negro); */
+  background: linear-gradient(0deg, #202128 0%, rgba(32, 33, 40, 0.9) 33.33%, #f00 100%);
+
 }
 
 .section {
